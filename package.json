@@ -1,0 +1,126 @@
+{
+  "_from": "current-device",
+  "_id": "current-device@0.7.8",
+  "_inBundle": false,
+  "_integrity": "sha1-uw5LM61hRpTb0UDXgsC8KDu3Yy8=",
+  "_location": "/current-device",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "current-device",
+    "name": "current-device",
+    "escapedName": "current-device",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/current-device/-/current-device-0.7.8.tgz",
+  "_shasum": "bb0e4b33ad614694dbd140d782c0bc283bb7632f",
+  "_spec": "current-device",
+  "_where": "/Volumes/ram-disk/current-device",
+  "author": {
+    "name": "Matthew Hudson",
+    "email": "matthud@gmail.com",
+    "url": "http://thematthewhudson.com"
+  },
+  "bugs": {
+    "url": "https://github.com/matthewhudson/current-device/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Mike Taylor",
+      "email": "miket@mozilla.com",
+      "url": "https://miketaylr.com"
+    },
+    {
+      "name": "Patrick",
+      "email": "github@gdi2290.com",
+      "url": "http://www.gdi2290.com"
+    },
+    {
+      "name": "Steven Masala"
+    },
+    {
+      "name": "Jérôme Steunou",
+      "url": "http://jeromesteunou.net"
+    },
+    {
+      "name": "André Tarnowsky",
+      "url": "http://lotterfriends.net"
+    },
+    {
+      "name": "Athou"
+    },
+    {
+      "name": "Mark Marijnissen",
+      "email": "markmarijnissen@gmail.com",
+      "url": "http://www.madebymark.nl"
+    },
+    {
+      "name": "Markus Kaiserswerth"
+    },
+    {
+      "name": "Bohdan Zhuravel",
+      "email": "bohdan@zhuravel.bz",
+      "url": "http://zhuravel.bz"
+    },
+    {
+      "name": "Guilherme Simões",
+      "email": "guilherme.rdems@gmail.com",
+      "url": "http://stackoverflow.com/users/1160916/ashitaka"
+    },
+    {
+      "name": "Jonas Jonny",
+      "email": "jkxxx@centrum.cz",
+      "url": "http://jonny.cz"
+    },
+    {
+      "name": "Andrey",
+      "email": "andrey.skladchikov@gmail.com",
+      "url": "http://brainstorage.me/Houston"
+    },
+    {
+      "name": "Evan Hahn",
+      "email": "me@evanhahn.com",
+      "url": "http://evanhahn.com"
+    },
+    {
+      "name": "Philip Karpiak",
+      "email": "operations@eswat.ca",
+      "url": "http://eswat.ca"
+    },
+    {
+      "name": "Mustard Andrew",
+      "email": "mustard.andrew@gmail.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "The easiest way to write conditional CSS and/or JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-plugin-import": "2.11.0",
+    "nwb": "0.22.0",
+    "prettier": "1.12.1"
+  },
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "homepage": "https://github.com/matthewhudson/current-device",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "name": "current-device",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewhudson/current-device.git"
+  },
+  "version": "0.7.8"
+}
