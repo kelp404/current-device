@@ -1,0 +1,15 @@
+{
+  "name": "current-device",
+  "version": "0.7.8",
+  "description": "The easiest way to write conditional CSS and/or JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
+  "main": "umd/current-device.js",
+  "license": "MIT",
+  "homepage": "https://github.com/kelp404/current-device",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
