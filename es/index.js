@@ -18,7 +18,7 @@ var documentElement = window.document.documentElement;
 var userAgent = window.navigator.userAgent.toLowerCase();
 
 // Detectable television devices.
-var television = ['googletv', 'viera', 'smarttv', 'internet.tv', 'netcast', 'nettv', 'appletv', 'boxee', 'kylo', 'roku', 'dlnadoc', 'roku', 'pov_tv', 'hbbtv', 'ce-html'];
+var television = ['googletv', 'viera', 'smarttv', 'internet.tv', 'netcast', 'nettv', 'appletv', 'boxee', 'kylo', 'roku', 'dlnadoc', 'pov_tv', 'hbbtv', 'ce-html'];
 
 // Main functions
 // --------------
