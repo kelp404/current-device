@@ -128,14 +128,14 @@ device.television = function () {
 
 device.portrait = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
-    return screen.orientation.type.includes('portrait');
+    return includes(screen.orientation.type, 'portrait');
   }
   return window.innerHeight / window.innerWidth > 1;
 };
 
 device.landscape = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
-    return screen.orientation.type.includes('landscape');
+    return includes(screen.orientation.type, 'landscape');
   }
   return window.innerHeight / window.innerWidth < 1;
 };
@@ -153,9 +153,14 @@ device.noConflict = function () {
 // Private Utility Functions
 // -------------------------
 
+// Check if element exists
+function includes(haystack, needle) {
+  return haystack.indexOf(needle) !== -1;
+}
+
 // Simple UA string search
 function find(needle) {
-  return userAgent.indexOf(needle) !== -1;
+  return includes(userAgent, needle);
 }
 
 // Check if documentElement already has a given class.
@@ -294,7 +299,7 @@ function findMatch(arr) {
 }
 
 device.type = findMatch(['mobile', 'tablet', 'desktop']);
-device.os = findMatch(['ios', 'iphone', 'ipad', 'ipod', 'android', 'blackberry', 'windows', 'fxos', 'meego', 'television']);
+device.os = findMatch(['ios', 'iphone', 'ipad', 'ipod', 'android', 'blackberry', 'macos', 'windows', 'fxos', 'meego', 'television']);
 
 function setOrientationCache() {
   device.orientation = findMatch(['portrait', 'landscape']);
