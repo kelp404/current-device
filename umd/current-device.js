@@ -1,5 +1,5 @@
 /*!
- * current-device v0.7.9 - https://github.com/matthewhudson/current-device
+ * current-device v0.8.0 - https://github.com/matthewhudson/current-device
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {

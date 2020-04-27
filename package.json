@@ -1,28 +1,27 @@
 {
-  "_from": "current-device@v0.7.9",
-  "_id": "current-device@0.7.9",
+  "_from": "current-device@0.8.0",
+  "_id": "current-device@0.8.0",
   "_inBundle": false,
-  "_integrity": "sha512-WL79lxs457RtUdPkWsJ4/smTs4v9Ato3YpbuumxReL2hW/33xwY2BtuslHCtLNQmtt3N5SBrE/+S657/TV6rzw==",
+  "_integrity": "sha512-HW+FDnyILtM22os6RGzrWBXn2rNrCAeHqo1YzEPMRFp/o1UhklB3L6cBl6+mJMXEaGWbkHaZbmhJ6MNj4mO7ng==",
   "_location": "/current-device",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "current-device@v0.7.9",
+    "raw": "current-device@0.8.0",
     "name": "current-device",
     "escapedName": "current-device",
-    "rawSpec": "v0.7.9",
+    "rawSpec": "0.8.0",
     "saveSpec": null,
-    "fetchSpec": "v0.7.9"
+    "fetchSpec": "0.8.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/current-device/-/current-device-0.7.9.tgz",
-  "_shasum": "4532d8dc13b9848aab5abca3250920b471126355",
-  "_spec": "current-device@v0.7.9",
-  "_where": "/Users/kelp/Desktop",
+  "_resolved": "https://registry.npmjs.org/current-device/-/current-device-0.8.0.tgz",
+  "_shasum": "14da609169f938a7d40e3e7ec62d2a3d4106a583",
+  "_spec": "current-device@0.8.0",
+  "_where": "/Users/kelp/Desktop/test",
   "author": {
     "name": "Matthew Hudson",
     "email": "matthud@gmail.com",
@@ -54,5 +53,5 @@
     "type": "git",
     "url": "git://github.com/matthewhudson/current-device.git"
   },
-  "version": "0.7.9"
+  "version": "0.8.0"
 }
