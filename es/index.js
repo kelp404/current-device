@@ -130,12 +130,18 @@ device.portrait = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
     return includes(screen.orientation.type, 'portrait');
   }
+  if (device.ios() && Object.prototype.hasOwnProperty.call(window, 'orientation')) {
+    return Math.abs(window.orientation) !== 90;
+  }
   return window.innerHeight / window.innerWidth > 1;
 };
 
 device.landscape = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
     return includes(screen.orientation.type, 'landscape');
+  }
+  if (device.ios() && Object.prototype.hasOwnProperty.call(window, 'orientation')) {
+    return Math.abs(window.orientation) === 90;
   }
   return window.innerHeight / window.innerWidth < 1;
 };

@@ -1,5 +1,5 @@
 /*!
- * current-device v0.8.2 - https://github.com/matthewhudson/current-device
+ * current-device v0.9.0 - https://github.com/matthewhudson/current-device
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -243,12 +243,18 @@ device.portrait = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
     return includes(screen.orientation.type, 'portrait');
   }
+  if (device.ios() && Object.prototype.hasOwnProperty.call(window, 'orientation')) {
+    return Math.abs(window.orientation) !== 90;
+  }
   return window.innerHeight / window.innerWidth > 1;
 };
 
 device.landscape = function () {
   if (screen.orientation && Object.prototype.hasOwnProperty.call(window, 'onorientationchange')) {
     return includes(screen.orientation.type, 'landscape');
+  }
+  if (device.ios() && Object.prototype.hasOwnProperty.call(window, 'orientation')) {
+    return Math.abs(window.orientation) === 90;
   }
   return window.innerHeight / window.innerWidth < 1;
 };
