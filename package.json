@@ -1,26 +1,26 @@
 {
-  "_from": "current-device@0.8.1",
-  "_id": "current-device@0.8.1",
+  "_from": "current-device@0.8.2",
+  "_id": "current-device@0.8.2",
   "_inBundle": false,
-  "_integrity": "sha512-sT9lRt2GnkEWNDsyTwT1gsxJtLiz7xtN1AGB3oHeq4ln6YZCOV30zdkBc3F3QefzFcfJXwIKG4ERmux+V6Kp3g==",
+  "_integrity": "sha512-DB/lozoIa5jZpyNQq7C6zlWNJ00V/qKeYhXRyI1sckTmlQhS9sfeflK72Tsx7HyUYmDLywb3lhfzrHt/9Tx7Gg==",
   "_location": "/current-device",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "current-device@0.8.1",
+    "raw": "current-device@0.8.2",
     "name": "current-device",
     "escapedName": "current-device",
-    "rawSpec": "0.8.1",
+    "rawSpec": "0.8.2",
     "saveSpec": null,
-    "fetchSpec": "0.8.1"
+    "fetchSpec": "0.8.2"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/current-device/-/current-device-0.8.1.tgz",
-  "_shasum": "229232c6297c31a450cad5bfc2fc6f21d22966da",
-  "_spec": "current-device@0.8.1",
+  "_resolved": "https://registry.npmjs.org/current-device/-/current-device-0.8.2.tgz",
+  "_shasum": "6551a1e7f92e87c3ff7274a71978e96f8dd55f23",
+  "_spec": "current-device@0.8.2",
   "_where": "/Users/kelp/Desktop/test",
   "author": {
     "name": "Matthew Hudson",
@@ -34,8 +34,8 @@
   "deprecated": false,
   "description": "The easiest way to write conditional CSS and/or JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-plugin-import": "2.17.3",
+    "eslint": "6.0.1",
+    "eslint-plugin-import": "2.18.0",
     "nwb": "0.23.0",
     "prettier": "1.18.2"
   },
@@ -53,5 +53,6 @@
     "type": "git",
     "url": "git://github.com/matthewhudson/current-device.git"
   },
-  "version": "0.8.1"
+  "types": "lib/types/index.d.ts",
+  "version": "0.8.2"
 }
